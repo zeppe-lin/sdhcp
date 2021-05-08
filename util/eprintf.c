@@ -21,16 +21,6 @@ eprintf(const char *fmt, ...)
 }
 
 void
-enprintf(int status, const char *fmt, ...)
-{
-	va_list ap;
-
-	va_start(ap, fmt);
-	venprintf(status, fmt, ap);
-	va_end(ap);
-}
-
-void
 venprintf(int status, const char *fmt, va_list ap)
 {
 	if (strncmp(fmt, "usage", strlen("usage")))
