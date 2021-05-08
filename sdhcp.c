@@ -443,7 +443,6 @@ Bound:
 	rebindingtime = ntohl(rebindingtime);
 	lease = ntohl(lease);
 	acceptlease();
-	fputs("Congrats! You should be on the 'net.\n", stdout);
 	if (!fflag && !forked) {
 		if (fork())
 			exit(0);
