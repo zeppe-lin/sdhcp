@@ -1,4 +1,5 @@
 TODO:
+[?] sdhcpcd(8) daemon ?
 [ ] manual check memcpy bounds.
 [ ] add flag (-s?) to probe a specific DHCP server, not broadcast?
     probably skip in run() Init: etc stages.
